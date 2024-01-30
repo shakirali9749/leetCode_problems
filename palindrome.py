@@ -1,11 +1,11 @@
 def isPalindrome(x):
     if x < 0:
         return False
-    digits = list(str(x))
-    return digits == digits[::-1]
+    x = str(x)
+    return x == x[::-1]
 
-user_input = int(input('enter digits: '))
+print(isPalindrome(int(input("Enter an integer: "))))
 
 
-print(isPalindrome(user_input))
+
 
