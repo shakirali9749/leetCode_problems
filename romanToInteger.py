@@ -10,7 +10,7 @@ def roman_to_int(s):
         # If a smaller numeral appears before a larger one, subtract the smaller value
         if current_value > prev_value:
             result += current_value - 2 * prev_value
-        
+
         else:
             result += current_value
         
@@ -18,7 +18,8 @@ def roman_to_int(s):
     
     return result
 
-# Example usage:
+
 roman_numeral = "XXVII"
 result_integer = roman_to_int(roman_numeral)
 print(result_integer)
+# this code is use to change the roman into integer
