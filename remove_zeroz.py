@@ -15,3 +15,4 @@ def remove_trailing_zeroz(list1,list2):
 num1 = [1,2,3,0,0,0,0] 
 num2 = [1,2,3,]
 print(remove_trailing_zeroz(num1,num2))
+chage last line
