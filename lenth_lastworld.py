@@ -23,5 +23,6 @@ Explanation: The last word is "moon" with length 4.
 def last_world_lenth(world_string):
 	return len(list(world_string.split())[-1])
 
-string = 'hello ali'
+string = 'hello ali@33330.'
 print(last_world_lenth(string))
+
