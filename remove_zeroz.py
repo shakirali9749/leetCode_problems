@@ -11,6 +11,7 @@ def remove_trailing_zeroz(list1,list2):
     list1.sort()
     return list1
 
+# simple lists for test
 num1 = [1,2,3,0,0,0,0] 
 num2 = [1,2,3,]
 print(remove_trailing_zeroz(num1,num2))
